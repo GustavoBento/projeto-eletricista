@@ -1,0 +1,15 @@
+.botao-wpp {
+    background-image: linear-gradient(to bottom, var(--azul-claro), var(--azul-escuro));
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 16px;
+    border: none;
+    border-radius: 7px;
+}
+
+ .botao-wpp:hover {
+    background-image: linear-gradient(to bottom, var(--cinza-claro), var(--cinza-escuro));
+} 

@@ -1,0 +1,69 @@
+.banner {
+    background: url("../../../public/banner.png") center top no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding-right: 20vw;
+    margin: 0 auto;
+}
+
+.secao-banner {
+    width: 55vw;
+}
+
+.banner h2 {
+    color: #FFF;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.banner p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secao-banner button {
+    margin-top: 20px;
+}
+
+.destaque-amarelo {
+    color: #FEDD0C;
+}
+
+@media screen and (max-width:768px) {
+    .banner {
+        background-image: url("../../../public/banner-cel.png");
+        justify-content: flex-start;
+        padding: 0;
+        padding-left: 10vw;
+    }
+
+    .banner h2{
+        font-size: 25px;
+    }
+
+    .banner button {
+        margin-top: 30vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .banner {
+        background-image: url("../../../public/banner-tablet.png");
+    }
+
+    .secao-banner {
+        width: 60vw;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+    }
+}
+
+
