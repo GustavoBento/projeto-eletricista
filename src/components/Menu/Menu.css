@@ -16,6 +16,7 @@
 
 .menu-mobile {
   display: none;
+  cursor: pointer;
 }
 
 #menu-suspenso {
@@ -80,11 +81,12 @@
 
   .cabecalho {
     justify-content: center;
+    padding: 27px;
   }
   
   .menu-mobile {
     display: flex;
-    padding: 27px;
+    /* padding: 27px; */
     color: #fff;
     font-size: 20px;
     align-items: center;

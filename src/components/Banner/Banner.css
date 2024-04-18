@@ -4,11 +4,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     width: 100%;
-    padding-right: 20vw;
-    margin: 0 auto;
+    padding: 0 10vw;
 }
 
 .secao-banner {
@@ -39,8 +37,7 @@
     .banner {
         background-image: url("../../../public/banner-cel.png");
         justify-content: flex-start;
-        padding: 0;
-        padding-left: 10vw;
+        padding: 0 20vw;
     }
 
     .banner h2{

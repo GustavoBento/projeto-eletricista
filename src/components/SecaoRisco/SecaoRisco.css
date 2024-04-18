@@ -1,0 +1,67 @@
+.secao-risco {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding: 0 10vw;
+}
+
+.secao-risco-conteudo h2{
+    width: 80%;
+    color: #3A4A92;
+    font-size: 35px;
+}
+
+.secao-risco-conteudo p {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.secao-risco-imagem {
+    align-self: center;
+}
+
+.secao-risco-imagem img{
+    align-self: center;
+    width: 250px;
+}
+
+@media screen  and (max-width: 768px){
+
+    .secao-risco {
+        margin-top: 20px;
+        padding: 0 15vw;
+    }
+
+    .secao-risco-conteudo {
+        width: 60vw;
+    }
+
+    .secao-risco-conteudo h2 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .secao-risco-conteudo p {
+        width: 100%;
+    }
+
+    
+    .secao-risco-imagem img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+
+    .secao-risco-conteudo h2 {
+        font-size: 28px;
+    }
+
+    .secao-risco-imagem img {
+        display: none;
+    }
+}
