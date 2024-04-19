@@ -9,7 +9,7 @@ export default function Card({imagem, titulo, texto, destaque}) {
             <p> {texto} </p>
             <button>
                 <a href="$">
-                <span class="material-symbols-outlined">arrow_forward</span>
+                <span className="material-symbols-outlined">arrow_forward</span>
                     Saiba Mais
                 </a>
             </button>

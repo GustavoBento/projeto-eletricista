@@ -1,6 +1,7 @@
 .secao-responsabilidade {
     display: flex;
     background: url("../assets/eletricista.png") center center no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     height: 65vh;
