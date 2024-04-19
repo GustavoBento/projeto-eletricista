@@ -10,7 +10,15 @@
     margin-bottom: 40px;
 }
 
-.secao-card-lista1 {
+.secao-card-lista {
     display: flex;
     gap: 20px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .secao-card-lista {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 }

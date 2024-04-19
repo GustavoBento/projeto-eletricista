@@ -1,5 +1,7 @@
 .card {
+    position: relative;
     width: 280px;
+    height: 375px;
     background-image: linear-gradient(to bottom, var(--azul-claro), var(--azul-escuro));
     border-radius: 25px 10px;
     padding: 16px;
@@ -22,11 +24,14 @@
 }
 
 .card p {
+    font-size: 15px;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
 
 .card button {
+    position: absolute;
+    top: 310px;
     background-color: #000;
     border: none;
     padding: 5px 8px;
@@ -53,5 +58,30 @@
 
 .card a span {
     color: #F1E80D;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .card {
+        width: 220px;
+        height: 420px;
+    }
+
+    .card img {
+        margin: 0;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card button {
+        top: 360px;
+    }
 }
 
