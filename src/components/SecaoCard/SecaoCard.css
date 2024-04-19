@@ -1,0 +1,16 @@
+.secao-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.secao-card h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.secao-card-lista1 {
+    display: flex;
+    gap: 20px;
+}

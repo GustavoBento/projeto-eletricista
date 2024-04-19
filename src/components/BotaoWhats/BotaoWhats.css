@@ -1,4 +1,5 @@
 .botao-wpp {
+    cursor: pointer;
     background-image: linear-gradient(to bottom, var(--azul-claro), var(--azul-escuro));
     color: #FFF;
     text-transform: uppercase;

@@ -7,16 +7,18 @@ export default function Menu() {
   return (
     <header className="cabecalho">
       <div className="menu-mobile" onClick={() => setMenuOn(!menuOn)}>
-        Menu <span className="material-symbols-outlined">menu</span>
+        Menu 
+        <span className="material-symbols-outlined">{menuOn ? "close" : 'menu'}</span>
       </div>
-
 
       <div className={menuOn ? "menu on" : "menu"}>
         <a href="$">início</a>
-        <div  id="menu-suspenso">
+        <div id="menu-suspenso">
           <button className="menubtn">
             meus serviços{" "}
-            <span className="material-symbols-outlined">arrow_drop_down</span>
+            <span className="material-symbols-outlined" id="menu-abrir">
+              arrow_drop_down
+            </span>
           </button>
           <div className="lista-suspensa">
             <a href="$" className="lista-suspensa-item">
