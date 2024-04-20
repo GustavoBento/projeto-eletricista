@@ -17,6 +17,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .secao-card h2 {
+        font-size: 25px;
+        width: 55%;
+    }
+
     .secao-card-lista {
         flex-direction: column;
         margin-bottom: 20px;

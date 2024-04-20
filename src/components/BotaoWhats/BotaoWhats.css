@@ -12,5 +12,6 @@
 }
 
  .botao-wpp:hover {
-    background-image: linear-gradient(to bottom, var(--cinza-claro), var(--cinza-escuro));
+    background-image: none;
+    background-color: #002994;
 } 

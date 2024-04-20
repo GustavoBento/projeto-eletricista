@@ -1,18 +1,20 @@
 .cabecalho {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75px;
-    max-width: 100%;
-    gap: 5px;
-    background-image:linear-gradient(to bottom, #00BCF9, #0061EB);
-    padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  max-width: 100%;
+  gap: 5px;
+  background-image: linear-gradient(to bottom, #00bcf9, #0061eb);
+  padding: 10px 16px;
 }
 
 .menu {
   display: flex;
   position: relative;
+
 }
+
 
 #menu-fechar {
   display: none;
@@ -27,7 +29,8 @@
   position: relative;
   display: flex;
 }
-.menu a, .menubtn {
+.menu a,
+.menubtn {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -37,14 +40,15 @@
 }
 
 .cabecalho a:hover {
-  background-image: linear-gradient(to bottom, #373737, #040404);
+  background-color:  #0438a7;
+  transition: .3s;
 }
 
 .menubtn:hover {
-  background-image: linear-gradient(to bottom, #373737, #040404);
+  background-color: #0438a7;
   cursor: pointer;
+  transition: .3s;
 }
-
 
 .menubtn {
   background-color: transparent;
@@ -54,17 +58,16 @@
 }
 
 .menubtn span {
-  color: #FFFF00;
+  color: #ffff00;
 }
-
 
 .lista-suspensa {
   display: none;
   position: absolute;
   top: 52px;
-  background-image:linear-gradient(to bottom, #00BCF9, #0061EB);
+  background-image: linear-gradient(to bottom, #00bcf9, #0061eb);
   min-width: 320px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   z-index: 1;
 }
@@ -77,21 +80,23 @@
   padding: 12px 16px;
 }
 
-.lista-suspensa a:hover {background-image: linear-gradient(to bottom, #373737, #040404);}
+.lista-suspensa a:hover {
+  background-color:  #0438a7;
+  transition: .3s;
+}
 
-#menu-suspenso:hover .lista-suspensa {display: block;}
+#menu-suspenso:hover .lista-suspensa {
+  display: block;
+}
 
-
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
   .cabecalho {
     justify-content: center;
     padding: 27px;
   }
-  
+
   .menu-mobile {
     display: flex;
-    /* padding: 27px; */
     color: #fff;
     font-size: 20px;
     align-items: center;
@@ -100,6 +105,8 @@
   .menu {
     display: none;
     width: 275px;
+    transition: 5s;
+    overflow: hidden;
   }
 
   .menu > a {
@@ -108,6 +115,7 @@
     width: 80%;
     display: block;
     text-align: center;
+    
   }
 
   .menu button {
@@ -122,12 +130,18 @@
     height: 63vh;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #4C4C4C, #242424);
+    background-color: #4c4c4c;
     border-radius: 0 0 7px 7px;
+    
   }
 
-
-
+  .cabecalho a:hover {
+    background-color:  #1D1D1D;
+  }
+  
+  .menubtn:hover {
+    background-color: #1D1D1D;
+  }
 
   .lista-suspensa {
     position: absolute;
@@ -142,10 +156,14 @@
     display: inline-block;
   }
 
+ 
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 958px) {
-  .menu a, .menubtn {
+  .menu a,
+  .menubtn {
     font-size: 15px;
   }
 

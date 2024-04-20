@@ -31,8 +31,7 @@
 @media screen  and (max-width: 768px){
 
     .secao-risco {
-        margin-top: 20px;
-        padding: 80px 15vw;
+        padding: 40px 15vw;
     }
 
     .secao-risco-conteudo {
@@ -41,7 +40,8 @@
 
     .secao-risco-conteudo h2 {
         width: 100%;
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 40px;
     }
 
     .secao-risco-conteudo p {

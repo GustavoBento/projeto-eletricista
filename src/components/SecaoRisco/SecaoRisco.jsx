@@ -1,5 +1,5 @@
 import "./SecaoRisco.css";
-import imagemSecaoRisco from './assets/perigos.png';
+import imagemSecaoRisco from '../assets/perigos.png';
 
 
 export default function SecaoRisco() {
