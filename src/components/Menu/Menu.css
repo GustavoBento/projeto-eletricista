@@ -90,6 +90,18 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  
+
   .cabecalho {
     justify-content: center;
     padding: 27px;
@@ -103,10 +115,9 @@
     gap: 15px;
   }
   .menu {
+    transform: translateX(-100%);
     display: none;
     width: 275px;
-    transition: 5s;
-    overflow: hidden;
   }
 
   .menu > a {
@@ -132,7 +143,7 @@
     flex-direction: column;
     background-color: #4c4c4c;
     border-radius: 0 0 7px 7px;
-    
+    animation: slideIn 0.5s forwards;
   }
 
   .cabecalho a:hover {
