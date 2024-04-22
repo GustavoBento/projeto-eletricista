@@ -38,7 +38,8 @@
 @media screen and (max-width: 768px) {
 
     .secao-responsabilidade {
-        padding: 0 15vw;
+        /* padding: 0 15vw; */
+        height: 80vh;
     }
 
     .secao-responsabilidade-imagem  {
@@ -50,7 +51,7 @@
     }
 
     .secao-responsabilidade-conteudo h3 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .secao-responsabilidade-conteudo p {

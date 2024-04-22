@@ -123,15 +123,17 @@
   .menu > a {
     border-bottom: 1px solid #423e3e67;
     border-radius: 3px;
-    width: 80%;
+    width: 100%;
     display: block;
     text-align: center;
     
   }
 
-  .menu button {
+  .menubtn {
     border-bottom: 1px solid #423e3e67;
     border-radius: 3px;
+    padding-right: 51px;
+    padding-left: 50px
   }
 
   .menu.on {
@@ -147,11 +149,11 @@
   }
 
   .cabecalho a:hover {
-    background-color:  #1D1D1D;
+    background-color:  #0438a7;
   }
   
   .menubtn:hover {
-    background-color: #1D1D1D;
+    background-color: #0438a7;
   }
 
   .lista-suspensa {
