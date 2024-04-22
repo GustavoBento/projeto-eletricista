@@ -6,14 +6,16 @@
     padding: 80px 10vw;
 }
 
+.secao-risco-conteudo {
+    width: 60%;
+}
+
 .secao-risco-conteudo h2{
-    width: 80%;
     color: #3A4A92;
     font-size: 35px;
 }
 
 .secao-risco-conteudo p {
-    width: 80%;
     margin-top: 20px;
     font-size: 16px;
     font-weight: bold;
@@ -31,23 +33,19 @@
 @media screen  and (max-width: 768px){
 
     .secao-risco {
-        padding: 40px 15vw;
+        padding: 80px 5vw;
     }
 
     .secao-risco-conteudo {
-        width: 60vw;
+        width: 100%;
     }
 
     .secao-risco-conteudo h2 {
-        width: 100%;
         font-size: 25px;
         margin-bottom: 40px;
     }
 
-    .secao-risco-conteudo p {
-        width: 100%;
-    }
-
+   
     
     .secao-risco-imagem img {
         display: none;
@@ -55,6 +53,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
+
+    .secao-risco-conteudo {
+        width: 100%;
+    }
 
     .secao-risco-conteudo h2 {
         font-size: 28px;

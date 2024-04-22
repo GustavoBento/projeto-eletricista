@@ -12,9 +12,7 @@ export default function SecaoMaps() {
         width="100%"
         height="500"
         style={{border: 0}}
-        allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </section>
   );
