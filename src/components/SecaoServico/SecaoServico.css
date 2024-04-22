@@ -1,0 +1,95 @@
+.secao-servico {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px 10vw 80px 10vw;
+}
+
+/* inicio da secao-conteudo */
+
+.secao-servico-conteudo {
+    width: 45%;
+}
+
+.secao-servico-conteudo h6 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.secao-servico-conteudo h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.secao-servico-conteudo h2 span {
+    color: #6A6A6A;
+}
+
+.secao-servico-conteudo p {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    padding: 8px 5px;
+    border-bottom: 1px solid #9A9A9A;
+    margin-right: 15px;
+}
+
+.secao-servico-conteudo p span {
+    color: #FFA500;
+}
+
+.secao-servico-conteudo button {
+    margin-top: 30px;
+}
+/* fim da section de conteudo */
+
+/* inicio da imagem */
+
+.secao-servico-imagem img {
+    border-radius: 25px 20px 20px 25px;
+    box-shadow: 0px 13px 21px 0px #0000004f;
+}
+/* fim da imagem */
+
+/* responsivo celular */
+
+@media screen and (max-width: 768px) {
+
+    .secao-servico-conteudo {
+        width: 100%;
+    }
+
+    .secao-servico-conteudo h2 {
+        font-size: 30px;
+    }
+
+    .secao-servico-imagem {
+        display: none;
+    }
+}
+/* fim responsivo celular */
+
+/* responsivo tablete */
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .secao-servico {
+        padding: 50px 0 80px 0;
+    }
+
+    .secao-servico-conteudo {
+        width: 50%;
+    }
+
+    .secao-servico-conteudo h2 {
+        font-size: 25px;
+    }
+
+    .secao-servico-imagem img {
+        width: 350px;
+    }
+}
+
+/* fim responsivo tablete */

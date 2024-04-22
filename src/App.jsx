@@ -4,6 +4,7 @@ import Menu from "./components/Menu/Menu";
 import SecaoCard from "./components/SecaoCard/SecaoCard";
 import SecaoResponsabilidade from "./components/SecaoResponsabilidade/SecaoResponsabilidade";
 import SecaoRisco from "./components/SecaoRisco/SecaoRisco";
+import SecaoServico from "./components/SecaoServico/SecaoServico";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <SecaoRisco />
       <SecaoResponsabilidade />
       <SecaoCard />
+      <SecaoServico />
     </div>
   )
 }
