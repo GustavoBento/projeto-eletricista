@@ -33,6 +33,12 @@
     color: #FEDD0C;
 }
 
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    .banner h2 {
+        margin-top: 25px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .banner {
         background: url("../assets/banner-cel.png") center top;
