@@ -8,7 +8,7 @@ export default function SecaoServico() {
       <div className="secao-servico-conteudo">
         <h6>meu compromisso</h6>
         <h2>
-          serviço de <span>alto padrão e com o melhor preço do mercado.</span>{" "}
+          serviço de <span>alto padrão e <br /> com o melhor preço do <br /> mercado.</span>{" "}
         </h2>
         <p>
           <span className="material-symbols-outlined">arrow_right_alt</span>

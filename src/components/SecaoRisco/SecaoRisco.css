@@ -1,18 +1,19 @@
 .secao-risco {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 50px;
     width: 100%;
-    padding: 80px 10vw;
+    padding: 80px 20px;
 }
 
 .secao-risco-conteudo {
-    width: 60%;
+    width: 600px;
 }
 
 .secao-risco-conteudo h2{
     color: #3A4A92;
     font-size: 35px;
+    text-align: start;
 }
 
 .secao-risco-conteudo p {
@@ -33,19 +34,18 @@
 @media screen  and (max-width: 768px){
 
     .secao-risco {
-        padding: 80px 5vw;
+        flex-direction: column;
+        align-items: center;
     }
 
     .secao-risco-conteudo {
-        width: 100%;
+        width: 300px;
     }
 
     .secao-risco-conteudo h2 {
-        font-size: 25px;
+        font-size: 28px;
         margin-bottom: 40px;
     }
-
-   
     
     .secao-risco-imagem img {
         display: none;
@@ -53,11 +53,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
-
-    .secao-risco-conteudo {
-        width: 100%;
-    }
-
     .secao-risco-conteudo h2 {
         font-size: 28px;
     }

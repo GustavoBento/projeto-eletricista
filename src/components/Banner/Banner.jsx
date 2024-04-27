@@ -17,6 +17,9 @@ export default function Banner() {
           </p>
           <BotaoWhats texto={"me chame no whatsapp"} />
       </div>
+      <div className="espaco">
+
+      </div>
     </section>
   );
 }

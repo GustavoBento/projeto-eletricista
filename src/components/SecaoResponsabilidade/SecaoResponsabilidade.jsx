@@ -8,8 +8,7 @@ export default function SecaoResponsabilidade() {
             <img src={imagemEletricista} alt="" />
         </div>
       <div className="secao-responsabilidade-conteudo">
-          <h3>Servico, qualidade </h3>
-          <h3>e responsabilidade</h3>
+          <h3>Servico, qualidade <br /> e responsabilidade</h3>
           <p>
             Meu principal objetivo como um profissional Eletricista em Salvador é
             entregar a máxima segurança, qualidade e responsabilidade. Respeitando

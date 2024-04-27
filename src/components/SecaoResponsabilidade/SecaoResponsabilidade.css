@@ -1,12 +1,12 @@
 .secao-responsabilidade {
-    display: flex;
     background: url("../assets/eletricista.png") center center no-repeat;
     background-size: cover;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 65vh;
     gap: 30px;
-
+    padding: 0 20px;
 }
 
 .secao-responsabilidade-imagem {
@@ -20,7 +20,7 @@
 }
 
 .secao-responsabilidade-conteudo {
-    min-width: 38vw;
+    width: 600px;
 }
 
 .secao-responsabilidade-conteudo h3{
@@ -30,7 +30,6 @@
 }
 
 .secao-responsabilidade-conteudo p {
-    max-width: 35vw;
     margin-top: 20px;
     color: #ffffff;
 }
@@ -38,8 +37,8 @@
 @media screen and (max-width: 768px) {
 
     .secao-responsabilidade {
-        /* padding: 0 15vw; */
-        height: 80vh;
+        flex-direction: column;
+        align-items: center;
     }
 
     .secao-responsabilidade-imagem  {
@@ -47,29 +46,25 @@
     }
 
     .secao-responsabilidade-conteudo {
-        max-width: 100vw;
+        width: 300px;
     }
 
     .secao-responsabilidade-conteudo h3 {
         font-size: 25px;
+        margin-bottom: 40px;
     }
 
-    .secao-responsabilidade-conteudo p {
-        max-width: 70vw;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
-    .secao-responsabilidade {
-        padding: 0 15vw;
-    }
+    
 
     .secao-responsabilidade-conteudo {
-        min-width: 45vw;
+        width: 385px;
     }
 
     .secao-responsabilidade-imagem img {
-        width: 300px;
+        width: 350px;
     }
 
     .secao-responsabilidade-conteudo h3 {

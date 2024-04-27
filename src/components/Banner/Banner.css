@@ -2,26 +2,32 @@
     background: url("../assets/banner.png") center top no-repeat ;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
     min-height: 100vh;
     width: 100%;
-    padding: 0 10vw;
+    padding: 0 20px;
 }
 
 .secao-banner {
-    width: 55vw;
+    width: 700px;
+}
+
+.espaco {
+    width: 150px;
+    align-self: center;
 }
 
 .banner h2 {
     color: #FFF;
-    font-size: 40px;
+    font-size: 38px;
     text-transform: uppercase;
 }
 
 .banner p {
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -42,30 +48,47 @@
 @media screen and (max-width:768px) {
     .banner {
         background: url("../assets/banner-cel.png") center top;
-        justify-content: flex-start;
-        padding: 0 20vw;
+        flex-direction: column;
+        align-items: center;
     }
 
     .banner h2{
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 18px;
     }
 
     .banner button {
         margin-top: 30vh;
+    }
+
+    .secao-banner {
+        width: 300px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
     .banner {
         background-image: url("../assets/banner-tablet.png");
-    }
-
-    .secao-banner {
-        width: 60vw;
+        justify-content: space-around;
     }
 
     .banner h2 {
-        font-size: 30px;
+        font-size: 31px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    .secao-banner {
+        width: 600px;
+    }
+
+    .espaco {
+        width: 0;
     }
 }
 

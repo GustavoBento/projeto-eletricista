@@ -3,13 +3,13 @@
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding: 50px 10vw 80px 10vw;
+    padding: 50px 20px 80px 20px;
 }
 
 /* inicio da secao-conteudo */
 
 .secao-servico-conteudo {
-    width: 45%;
+    width: 450px;
 }
 
 .secao-servico-conteudo h6 {
@@ -60,7 +60,7 @@
 @media screen and (max-width: 768px) {
 
     .secao-servico-conteudo {
-        width: 100%;
+        width: 300px;
     }
 
     .secao-servico-conteudo h2 {
@@ -75,12 +75,10 @@
 
 /* responsivo tablete */
 @media screen and (min-width: 768px) and (max-width: 960px) {
-    .secao-servico {
-        padding: 50px 0 80px 0;
-    }
+    
 
     .secao-servico-conteudo {
-        width: 50%;
+        width: 390px;
     }
 
     .secao-servico-conteudo h2 {
@@ -88,7 +86,8 @@
     }
 
     .secao-servico-imagem img {
-        width: 350px;
+        width: 360px;
+        height: 370px;
     }
 }
 

@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Menu from "./components/Menu/Menu";
 import SecaoCard from "./components/SecaoCard/SecaoCard";
+import SecaoContato from "./components/SecaoContato/SecaoContato";
 import SecaoMaps from "./components/SecaoMaps/SecaoMaps";
 import SecaoResponsabilidade from "./components/SecaoResponsabilidade/SecaoResponsabilidade";
 import SecaoRisco from "./components/SecaoRisco/SecaoRisco";
@@ -17,6 +18,7 @@ export default function App() {
       <SecaoCard />
       <SecaoServico />
       <SecaoMaps />
+      <SecaoContato />
     </div>
   )
 }
