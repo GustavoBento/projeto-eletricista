@@ -28,6 +28,7 @@
 #menu-suspenso {
   position: relative;
   display: flex;
+  width: 100%;
 }
 .menu a,
 .menubtn {
@@ -55,6 +56,7 @@
   border: none;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .menubtn span {
