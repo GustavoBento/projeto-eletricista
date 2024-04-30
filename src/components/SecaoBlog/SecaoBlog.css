@@ -1,0 +1,41 @@
+.secao-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 40px 20px 80px 20px;
+}
+
+.secao-blog h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secao-blog h3 span {
+    color: #E4D625;
+}
+
+.secao-blog-card {
+    display: flex;
+    width: 900px;
+    gap: 20px;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 768px) {
+    .secao-blog-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .secao-blog-card {
+        width: 700px;
+    }
+}

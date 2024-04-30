@@ -2,7 +2,7 @@
     background: url("../assets/banner.png") center top no-repeat ;
     background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 50px;
     min-height: 100vh;
@@ -15,7 +15,7 @@
 }
 
 .espaco {
-    width: 150px;
+    width: 100px;
     align-self: center;
 }
 
@@ -84,11 +84,11 @@
     }
 
     .secao-banner {
-        width: 600px;
+        width: 680px;
     }
 
     .espaco {
-        width: 0;
+        display: none;
     }
 }
 

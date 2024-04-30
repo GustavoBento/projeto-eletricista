@@ -78,7 +78,7 @@
     
 
     .secao-servico-conteudo {
-        width: 390px;
+        width: 350px;
     }
 
     .secao-servico-conteudo h2 {
@@ -86,7 +86,7 @@
     }
 
     .secao-servico-imagem img {
-        width: 360px;
+        width: 350px;
         height: 370px;
     }
 }
