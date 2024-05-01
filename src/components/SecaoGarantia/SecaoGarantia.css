@@ -1,0 +1,48 @@
+.secao-garantia {
+    background-color: #020524;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px 80px 20px;
+}
+
+.secao-garantia-container {
+    max-width: 900px;
+}
+
+.secao-garantia-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.secao-garantia-container h3 {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0 10px 0;
+}
+
+.secao-garantia-container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.secao-garantia-container .botao-wpp {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .secao-garantia-container {
+        width: 300px;
+    }
+
+    .secao-garantia-container img {
+        width: 270px;
+    }
+
+    .secao-garantia-container p {
+        text-align: center;
+    }
+}

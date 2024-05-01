@@ -5,6 +5,7 @@ import SecaoBlog from "./components/SecaoBlog/SecaoBlog";
 import SecaoCard from "./components/SecaoCard/SecaoCard";
 import SecaoClientes from "./components/SecaoClientes/SecaoClientes";
 import SecaoContato from "./components/SecaoContato/SecaoContato";
+import SecaoGarantia from "./components/SecaoGarantia/SecaoGarantia";
 import SecaoMaps from "./components/SecaoMaps/SecaoMaps";
 import SecaoResponsabilidade from "./components/SecaoResponsabilidade/SecaoResponsabilidade";
 import SecaoRisco from "./components/SecaoRisco/SecaoRisco";
@@ -23,6 +24,7 @@ export default function App() {
       <SecaoContato />
       <SecaoBlog />
       <SecaoClientes />
+      <SecaoGarantia />
     </div>
   )
 }
