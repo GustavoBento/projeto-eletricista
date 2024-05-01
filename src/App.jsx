@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import Menu from "./components/Menu/Menu";
 import SecaoBlog from "./components/SecaoBlog/SecaoBlog";
 import SecaoCard from "./components/SecaoCard/SecaoCard";
+import SecaoClientes from "./components/SecaoClientes/SecaoClientes";
 import SecaoContato from "./components/SecaoContato/SecaoContato";
 import SecaoMaps from "./components/SecaoMaps/SecaoMaps";
 import SecaoResponsabilidade from "./components/SecaoResponsabilidade/SecaoResponsabilidade";
@@ -21,6 +22,7 @@ export default function App() {
       <SecaoMaps />
       <SecaoContato />
       <SecaoBlog />
+      <SecaoClientes />
     </div>
   )
 }
