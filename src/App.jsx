@@ -10,6 +10,7 @@ import SecaoGarantia from "./components/SecaoGarantia/SecaoGarantia";
 import SecaoMaps from "./components/SecaoMaps/SecaoMaps";
 import SecaoResponsabilidade from "./components/SecaoResponsabilidade/SecaoResponsabilidade";
 import SecaoRisco from "./components/SecaoRisco/SecaoRisco";
+import SecaoRodape from "./components/SecaoRodape/SecaoRodape";
 import SecaoServico from "./components/SecaoServico/SecaoServico";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
       <SecaoClientes />
       <SecaoGarantia />
       <SecaoBiografia />
+      <SecaoRodape />
     </div>
   )
 }
