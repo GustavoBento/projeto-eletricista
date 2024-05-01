@@ -12,7 +12,7 @@ export default function Menu() {
       </div>
 
       <div className={menuOn ? "menu on" : "menu"}>
-        <a href="$">início</a>
+        <a id="menu-inicio" href="$">início</a>
         <div id="menu-suspenso">
           <button className="menubtn">
             meus serviços{" "}
