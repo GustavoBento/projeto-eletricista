@@ -35,6 +35,7 @@
     .secao-risco {
         flex-direction: column;
         align-items: center;
+        padding-top: 0;
     }
 
     .secao-risco-conteudo {

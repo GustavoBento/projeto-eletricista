@@ -46,12 +46,13 @@
 
 @media screen and (max-width:768px) {
     .banner {
-        background: url("../assets/banner-cel.png") center top;
+        background: url("../assets/banner-cel.png") center top no-repeat;
         flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
     }
 
     .banner h2{
+        margin-top: 40px;
         font-size: 30px;
     }
 

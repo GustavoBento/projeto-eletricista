@@ -84,11 +84,12 @@
     }
 
     .secao-contato-conteudo, .secao-contato-formulario {
-        width: 320px;
+        width: 300px;
     }
 
     #paragrafo-email {
         margin-bottom: 80px;
+        word-wrap: break-word;
     }
 }
 
